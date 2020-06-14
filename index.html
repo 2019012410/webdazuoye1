@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店预订</title>
+<link href="style.css" rel="stylesheet">
+  <style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+  .grid{display:flex;flex-direction:row;}
+    .grid_cell_1{flex-basis:0;flex-grow:1;}
+    .grid_cell_2{flex-basis:0;flex-grow:2;}
+    .grid_cell_3{flex-basis:0;flex-grow:3;}
+
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.hqq1{
+    height: 45px;
+    background-color: #333;
+}
+.hqq2{
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+.hqq2 p{
+    float: right;
+    color: #ffffff;
+    height: 45px;
+    line-height: 45px;
+}
+.hqq2 span{
+    font-size: 20px;
+    margin-right: 28px;
+}
+.hqq2 img{
+    margin:10px 12px 0 0; 
+    float: left;
+    height:35px;
+}
+.hqq2 a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 14px 0;
+}
+.na{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.na img{
+    margin-top: 12px;
+    width:400px;
+    height: 60px;
+}
+.na p{
+    float: left;
+    line-height: 80px;
+}
+.na p a{
+    color: #000;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 76px;
+}
+.na p a:hover{
+    color: #e8420a;
+    border-bottom: 4px solid #e8420a;
+}
+.grid_cell_3{flex-basis:0;
+    flex-grow:3;
+    float:right ;
+    margin: 25px;
+
+}
+.grid_cell_3 img {
+    width: 1400px;
+    float: right;
+}
+.mqq1{
+    height: 724px;
+    background-color: #f5f5f5;
+}
+.mqq2{
+    width: 1200px;
+    height: 724px;
+    margin: 0 auto;
+}
+.cii{
+    line-height: 97px;
+}
+.cii a{
+    font-size: 18px;
+    color: #333;
+}
+.hotal{
+    height: 545px;
+    padding: 15px;
+    background-color: #fff;
+}
+.hotal-left{
+    float: left;
+}
+.ppmg li{
+    float: left;
+    margin-left: 4px;
+}
+.ppmg li:first-child{
+    margin-left: 0;
+}
+.ppmg img{
+    width: 150px;
+    height: 100px;
+}
+.hotal-right{
+    width: 465px;
+    float: right;
+}
+.hotal-right h3{
+    font-size: 30px;
+    line-height: 94px;
+}
+.hotal-right p{
+    font-size: 20px;
+    line-height: 40px;
+    color: #666;
+}
+.ix{
+    width: 47px;
+    height: 390px;
+    position: fixed;
+    right: 0;
+    top: 130px;
+}
+.ix li{
+    background-color: #1c5080;
+    height: 47px;
+    text-align: center;
+    margin-bottom: 2px;
+     color: #fff;
+}
+.ix img{
+    margin-top: 9px;
+}
+.ix li:last-child{
+    height: 150px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #e8420a;
+} 
+.assd img{
+    height:400px;
+    width:610px;
+}
+.footer {
+      height: 120px;
+      line-height: 120px;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+  </style>
+}
+
+</head>
+<body>
+    <div class="hqq1">
+        <div class="hqq2">
+            <p>
+                <span>
+                    <img alt="" src="E:\Git\webdazuoye1\web图片\phone.png">
+                    400-808-8682
+                </span>
+                <a href="#">请登录</a>|
+                <a href="#">注册</a>
+            </p>
+        </div>
+    </div>
+    <div class="na">
+        <img alt="" src="E:\Git\webdazuoye1\web图片\logo.png">
+        <p>
+            <a href="#">首页</a>
+            <a href="#">目的地</a>
+        </p>
+         <li class=" grid_cell_3">
+                <input name="name" style="width :200px;height :30px;border :0;border :1px solid #0094ff; border-radius :10px;" type="text" placeholder=" 搜索关键字" value="">
+                <input name="name" style="background-color :#0094ff; width :60px;height :30px;border :0;font-size :18px; border :1px solid #0094ff;color :#ffffff; border-radius :10px;" type="button" value="搜索">
+            </li>
+
+    </div>
+       <div style=" background-color:white;width :100%;">
+        <div class=" top2 grid ">
+            
+            <ul class=" grid_cell_3">
+                <li>
+                    <img src="E:\Git\webdazuoye1\web图片\1.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mqq1">
+        <div class="mqq2">
+            <p class="cii">
+                <a href="">首页</a> &gt;
+                <a href="">美景欣赏</a> &gt;
+                <a href="">昆明介绍</a>
+            </p>
+            <div class="hotal">
+                <div class="hotal-left">
+                <div class=assd>
+                    <img alt="" src="E:\Git\webdazuoye1\web图片\big.jpg">
+                </div>
+                    <ul class="ppmg">
+                        <li>
+                            <img alt="" src="E:\Git\webdazuoye1\web图片\s1.jpg">
+                        </li>
+                        <li>
+                            <img alt="" src="E:\Git\webdazuoye1\web图片\s2.jpg">
+                        </li>
+                        <li>
+                            <img alt="" src="E:\Git\webdazuoye1\web图片\s3.jpg">
+                        </li>
+                        <li>
+                            <img alt="" src="E:\Git\webdazuoye1\web图片\s4.jpg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="hotal-right">
+                    <h3>昆明</h3>
+                    <p>昆明作为云南的省会，虽然没有丽江、大理那么出名，却也有它独特的韵味。很多人来到云南的第一站就是这里。既然来了，不妨在这里停留一两天，感受一下它的魅力。昆明有很多值得一去的地方，最为外人所道也的莫过于滇池风景区和石林风景区了。我们去的是滇池风景区，也就是海埂公园。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="ix">
+        <li>
+            <img alt="" src="imgs/phone.png">
+            <br>2<br>
+        </li>
+        <li>
+            <img alt="" src="imgs.png">
+            <br>3<br>
+        </li>
+        <li>
+            <img alt="" src="imgs/wb.png">
+            <br>4<br>
+        </li>
+        <li>
+            <img alt="" src="imgs/img.png">
+            <br>5<br>
+        </li>
+        <li>
+            <img alt="" src="imgs/img2.png"><br>
+            报<br>名<br>费<br>用
+        </li>
+    </ul>
+    <div class="footer">
+    苏ICP备000号、2014-2017 版权所有
+  </div>
+
+
+</body>
+</html>
+
